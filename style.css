@@ -21,17 +21,17 @@
 
   /* Fonts */
   --font-family: "Azeret Mono", monospace;
+  --font-size-extrabold-48: 48px;
   --font-size-extrabold-28: 28px;
   --font-size-semibold-20: 20px;
   --fw-extrabold: 800;
+  --fw-bold: 700;
   --fw-semibold: 600;
+  --fw-regular: 400;
   /* 
-  --font-size-extrabold-48: 48px;
   --font-size-h1: 48px;
   --font-size-h4: 24px;
   --font-size-button: 20px;
-  --fw-regular: 400;
-  --fw-bold: 700;
   */
 
   /* Spacing */
@@ -52,8 +52,8 @@ html {
 body {
   font-family: var(--font-family);
   background-color: var(--background-color);
-  max-width: 1140px;
-  margin: auto;
+  /* max-width: 1140px; */
+  /* margin: auto; */
   /* font-family: var(--font-family);
   color: var(--text-color);
   line-height: 1.6; */
@@ -69,6 +69,9 @@ nav {
   justify-content: space-between;
   height: 100px;
   align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 nav h1 {
@@ -97,6 +100,13 @@ nav button {
 .hero-contents img {
   padding: var(--spacing-lg);
 }
+
+.hero-description {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
 .hero-contents h1 {
   padding: var(--spacing-lg);
 }
@@ -115,10 +125,92 @@ nav button {
   margin: var(--spacing-lg);
 }
 
-main {
-  /* Main content styles */
+/* why web development section */
+
+.why-webdev-container {
+  max-width: 1140px;
+  margin: 100px auto;
+  padding: 0 16px;
+}
+
+.why-webdev-h-title-container {
+  text-align: center;
+}
+
+.qna-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.qna-two {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.qna-three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer {
   /* Footer styles */
+}
+
+/* FOR RESPONSIVE */
+/* Large desktop (1140px+) */
+/* @media (max-width: 1140px) { } */
+
+/* Tablet */
+@media (max-width: 992px) {
+}
+
+/* Small tablet / large phone */
+@media (max-width: 768px) {
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  /* for nav bar */
+  nav h1 {
+    font-size: var(--font-size-semibold-20);
+    font-weight: var(--fw-regular);
+  }
+
+  nav button {
+    font-size: var(--font-size-semibold-20);
+    font-weight: var(--fw-regular);
+    background: transparent;
+    border: 1px solid gray;
+    padding: var(--spacing-md) var(--spacing-md);
+    border-radius: var(--spacing-sm);
+  }
+
+  /* for hero section*/
+  .hero-contents img {
+    width: 35%;
+    height: auto;
+  }
+
+  .hero-contents h1 {
+    font-size: var(--font-size-semibold-20);
+    padding: var(--spacing-xs) 0;
+    font-weight: var(--fw-semibold);
+  }
+  .hero-contents p {
+    padding: var(--spacing-sm) 0;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .hero-contents button {
+    font-size: 12px;
+    font-weight: var(--fw-regular);
+    background: var(--primary-color);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--spacing-sm);
+    color: white;
+  }
 }
