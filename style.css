@@ -155,6 +155,17 @@ nav button {
   align-items: center;
 }
 
+.my-inspiration-container {
+  max-width: 1140px;
+  margin: 100px auto;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.my-inspiration-contents {
+  margin-bottom: 100px;
+}
+
 footer {
   /* Footer styles */
 }
