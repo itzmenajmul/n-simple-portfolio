@@ -207,8 +207,28 @@ nav button {
   align-items: center;
 }
 
-footer {
-  /* Footer styles */
+/* support section */
+.i-need-support-container {
+  background: url("./assets/handshake.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  max-width: 1140px;
+  width: 100%;
+  height: 40vh;
+  margin: 100px auto;
+  text-align: center;
+  color: white;
+}
+
+.footer-h-icons {
+  max-width: 1140px;
+  margin: 100px auto;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* FOR RESPONSIVE */
