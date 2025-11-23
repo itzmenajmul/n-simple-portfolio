@@ -166,6 +166,47 @@ nav button {
   margin-bottom: 100px;
 }
 
+/* my current target section */
+.my-current-target-container {
+  max-width: 1140px;
+  margin: 100px auto;
+  padding: 0 16px;
+  text-align: center;
+}
+
+.my-current-target-all-skills {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* my next target section */
+.my-next-target-container {
+  max-width: 1140px;
+  margin: 100px auto;
+  padding: 0 16px;
+  /* text-align: center; */
+}
+
+.my-next-target-h-description {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.reactjs-container {
+  display: flex;
+  align-items: center;
+}
+
+.nodejs-container {
+  display: flex;
+  align-items: center;
+}
+.mongodb-container {
+  display: flex;
+  align-items: center;
+}
+
 footer {
   /* Footer styles */
 }
