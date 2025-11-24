@@ -11,11 +11,12 @@
       <nav>
         <!-- NAVIGATION GOES HERE -->
         <h1>Najmul Islam</h1>
-        <button>Download Resume</button>
-        <!-- when click here download something -->
+        <a href="./assets/mr-bean.jpg" target="_blank" download><button class="button">Download Resume</button></a>
       </nav>
-      <section class="hero-contents">
-        <img src="./assets/laptop-profile.png" alt="" />
+      <section class="hero-container">
+        <div class="hero-img">
+          <img src="./assets/laptop-profile.png" alt="" />
+        </div>
         <div class="hero-description">
           <h1>"In the near future, I hope to become a Developer."</h1>
           <p>
@@ -23,44 +24,44 @@
             growing every day so I can confidently become a professional
             developer soon 😊
           </p>
-          <button>Contact with me</button>
+          <a href="https://github.com/itzmenajmul/" target="_blank"><button class="button">Contact with me</button></a>
         </div>
-        <!-- when click here open my e-mail -->
       </section>
     </header>
 
     <main>
       <!-- ALL MAIN CONTENT LIVES HERE -->
-      <!-- why web development -->
+      <!-- why web development section -->
       <section class="why-webdev-container">
         <div class="why-webdev-h-title-container">
-          <h2>Why Web Development??</h2>
+          <h2 class="primary-h2">Why Web Development??</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
-            temporibus laudantium neque sint minima quibusdam! Id consectetur
-            iure earum at.
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quos aspernatur eius.
           </p>
         </div>
 
         <div class="qna-one">
-          <div class="qna-one-content">
-            <h3>I will Do Coding and Change The World</h3>
-            <button>Learn More</button>
+          <div class="qna-one-content qna-container">
+            <h3 class="qna-h3">I will Do Coding and Change The World</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eius illo quod!</p>
+            <div class="btn-container">
+              <button class="qna-btn">Learn More</button>
+            </div>
           </div>
           <div class="qna-one-img">
             <img src="./assets/first-boy.png" alt="boy image" />
           </div>
         </div>
 
-        <div class="qna-two">
-          <div class="qna-two-content">
-            <h3>I will help People by creating Modern Web System</h3>
+        <div class="qna-two ">
+          <div class="qna-two-content qna-container">
+            <h3 class="qna-h3">I will help People by creating Modern Web System</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
-              saepe blanditiis quas architecto placeat eius officia dignissimos
-              ducimus vero eaque?
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, itaque maiores. Explicabo?
             </p>
-            <button>Learn More</button>
+            <div>
+              <button class="qna-btn">Learn More</button>
+            </div>
           </div>
           <div class="qna-two-img">
             <img src="./assets/second-boy.png" alt="boy image" />
@@ -68,14 +69,12 @@
         </div>
 
         <div class="qna-three">
-          <div class="qna-three-content">
-            <h3>I will Do Coding and Change The World</h3>
+          <div class="qna-three-content qna-container">
+            <h3 class="qna-h3">I will Do Coding and Change The World</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ut
-              dicta cupiditate deserunt temporibus excepturi ipsa minima,
-              doloribus consequatur explicabo.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem provident rerum ut.
             </p>
-            <button>Learn More</button>
+            <div><button class="qna-btn">Learn More</button></div>
           </div>
           <div class="qna-three-img">
             <img src="/assets/third-boy.png" alt="boy image" />
@@ -86,7 +85,7 @@
       <!-- my inspiration section -->
       <section class="my-inspiration-container">
         <div class="my-inspiration-contents">
-          <h2>My Inspiration</h2>
+          <h2 class="primary-h2">My Inspiration</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
             quibusdam adipisci explicabo ex omnis cupiditate autem assumenda
@@ -96,8 +95,8 @@
         <!-- video -->
         <div class="my-inspiration-video">
           <iframe
-            width="560"
-            height="315"
+            width="100%"
+            height="775"
             src="https://www.youtube.com/embed/65CeSrQa_1M?si=Sbk2FuzKuWy9Rk2E"
             title="YouTube video player"
             frameborder="0"
@@ -111,7 +110,7 @@
       <!-- my current target section -->
       <section class="my-current-target-container">
         <div class="my-current-target-h-description">
-          <h2>My Current Target</h2>
+          <h2 class="primary-h2">My Current Target</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
             officia quisquam possimus excepturi eveniet animi, delectus
@@ -119,32 +118,29 @@
           </p>
         </div>
         <div class="my-current-target-all-skills">
-          <div class="html">
+          <div class="html skill-container">
             <img src="./assets/html.png" alt="HTML image" />
-            <h3>HTML</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
-              nam?
+            <h3 class="skill-h3">HTML</h3>
+            <p class="skill-p">
+             Lorem Ipsum is simply dummy text of the printing.
             </p>
-            <a href="">Learn More</a>
+            <a class="skill-a" href="">Learn More</a>
           </div>
-          <div class="css">
+          <div class="css skill-container">
             <img src="./assets/css.png" alt="CSS image" />
-            <h3>CSS</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
-              nam?
+            <h3 class="skill-h3">CSS</h3>
+            <p class="skill-p">
+              Lorem Ipsum is simply dummy text of the printing.
             </p>
-            <a href="">Learn More</a>
+            <a class="skill-a" href="">Learn More</a>
           </div>
-          <div class="js">
+          <div class="js skill-container">
             <img src="./assets/js.png" alt="JS image" />
-            <h3>JavaScript</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
-              nam?
+            <h3 class="skill-h3">JavaScript</h3>
+            <p class="skill-p">
+              Lorem Ipsum is simply dummy text of the printing.
             </p>
-            <a href="">Learn More</a>
+            <a class="skill-a" href="">Learn More</a>
           </div>
         </div>
       </section>
@@ -152,8 +148,8 @@
       <!-- my next target section -->
       <section class="my-next-target-container">
         <div class="my-next-target-h-description">
-          <h2>My Next Target</h2>
-          <p>
+          <h2 class="primary-h2">My Next Target</h2>
+          <p >
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Voluptates, repellat odit tempore eius perspiciatis aut tempora
             dolorum est facilis harum.
@@ -165,12 +161,12 @@
               <img src="./assets/react.png" alt="react image" />
             </div>
             <div class="reactjs-contents">
-              <h3>ReactJS</h3>
-              <p>
+              <h3 class="skill-h3">ReactJS</h3>
+              <p class="skill-p">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Voluptas doloremque vel veritatis ad hic dolorem.
               </p>
-              <a href="">Learn More</a>
+              <a class="skill-a" href="">Learn More</a>
             </div>
           </div>
 
@@ -179,12 +175,12 @@
               <img src="./assets/nodejs.png" alt="node image" />
             </div>
             <div class="nodejs-contents">
-              <h3>NodeJS</h3>
-              <p>
+              <h3 class="skill-h3">NodeJS</h3>
+              <p class="skill-p">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Voluptas doloremque vel veritatis ad hic dolorem.
               </p>
-              <a href="">Learn More</a>
+              <a class="skill-a" href="">Learn More</a>
             </div>
           </div>
 
@@ -193,12 +189,12 @@
               <img src="./assets/mongodb.png" alt="mongodb image" />
             </div>
             <div class="mongodb-contents">
-              <h3>MongoDB</h3>
-              <p>
+              <h3 class="skill-h3">MongoDB</h3>
+              <p class="skill-p">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                 Voluptas doloremque vel veritatis ad hic dolorem.
               </p>
-              <a href="">Learn More</a>
+              <a class="skill-a" href="">Learn More</a>
             </div>
           </div>
         </div>
@@ -209,7 +205,7 @@
       <!-- FOOTER CONTENT GOES HERE -->
        <section class="i-need-support-container">
         <h2>I need Support.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis qui ipsa odit nemo voluptate doloribus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  voluptate doloribus.</p>
         <form>
           <input type="text" name="" id="" placeholder="Suggest me any feedback for me">
           <input type="submit" value="Submit">
@@ -217,7 +213,7 @@
        </section>
 
        <section class="footer-h-icons">
-       <div class="footer-heading"> <h3>An Open Comitment by  Najmul Islam</h3></div>
+       <div class="footer-heading"> <h3>An Open Comitment by &copy; Najmul Islam</h3></div>
         <!-- add copy symbol befor name -->
 <div class="footer-icons">
            <img src="./assets/facebook.png" alt=""><a href=""></a></img><img src="./assets/github.png" alt=""><a href=""></a></img><img src="./assets/linkedin-icon.png" alt=""><a href=""></a></img>
